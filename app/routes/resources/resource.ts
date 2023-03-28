@@ -1,7 +1,7 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
 import Store from '@ember-data/store';
-import Resource, { getIdFromSlug } from 'ember-crate/models/resource';
+import Resource from 'ember-crate/models/resource';
 
 export default class ResourceRoute extends Route {
   @service declare store: Store;
@@ -9,7 +9,7 @@ export default class ResourceRoute extends Route {
   metaInfo = {};
 
   model(params: { resource_id: string }) {
-    const resourceId = getIdFromSlug(params.resource_id);
+    const resourceId = params.resource_id;
 
     if (!resourceId) {
       throw new Error('Invalid or no resource id in url');
