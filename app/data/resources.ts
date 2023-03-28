@@ -400,12 +400,12 @@ export const resources: Array<RawResource> = [
       This guide intends to be aligned with the idioms and syntax of the Octane edition of Ember.
       The goal of this guide is to cultivate a set of patterns that are practical and can reasonably be used by any Ember developer in their application. It is intended to be made publicly available with the release of Ember Octant.
     `,
-    url: 'https://www.youtube.com/playlist?app=desktop&list=PLk51HrKSBQ88wDXgPF-QLMfPFlLwcjTlo',
+    url: 'https://www.youtube.com/watch?v=eQUvN9Ujs1s&list=PLk51HrKSBQ88wDXgPF-QLMfPFlLwcjTlo',
     createdDate: new Date('2021-05-29'),
     publishDate: new Date('2023-03-26'),
     isFeatured: false,
     type: ResourceType.YouTube,
-    tags: ['Tutorial'],
+    tags: ['Tutorial', 'Octane'],
     author: 'Shawn Chen',
   },
 ];
