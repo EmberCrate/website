@@ -1,24 +1,29 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
 import Store from '@ember-data/store';
-import Resource, { getIdFromSlug } from 'ember-crate/models/resource';
+import Resource from 'ember-crate/models/resource';
+import Router from 'ember-crate/router';
 
 export default class ResourceRoute extends Route {
   @service declare store: Store;
 
+  @service declare router: Router;
+
   metaInfo = {};
 
   model(params: { resource_id: string }) {
-    const resourceId = getIdFromSlug(params.resource_id);
+    const resourceId = params.resource_id;
 
     if (!resourceId) {
-      throw new Error('Invalid or no resource id in url');
+      this.router.transitionTo('404');
+      return;
     }
 
     const resource = this.store.peekRecord('resource', resourceId);
 
     if (!resource) {
-      throw new Error("Resource with id doesn't exist");
+      this.router.transitionTo('404');
+      return;
     }
 
     return resource;

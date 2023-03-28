@@ -14,4 +14,5 @@ Router.map(function () {
   this.route('add-resource');
   this.route('about');
   this.route('sitemap');
+  this.route('404');
 });

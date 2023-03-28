@@ -15,8 +15,8 @@ export enum ResourceType {
   Podcast = 'Podcast',
 }
 
-export const getIdFromSlug = (id: string) => {
-  return id.match(/-([0-9]+)$/)?.[1];
+export const slugifyTitle = (title: string) => {
+  return slugify(title, { lower: true, strict: true });
 };
 
 export default class Resource extends Model {
@@ -76,7 +76,7 @@ export default class Resource extends Model {
   }
 
   get slug() {
-    return `${slugify(this.title, { lower: true, strict: true })}-${this.id}`;
+    return slugifyTitle(this.title);
   }
 
   get relatedResources() {
