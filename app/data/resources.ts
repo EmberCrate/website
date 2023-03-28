@@ -1,15 +1,16 @@
 import { ResourceType } from 'ember-crate/models/resource';
 
 interface RawResource {
-  tags: Array<string>;
   title: string;
   description: string;
   author: string;
+  authorTwitter?: string;
   url: string;
   createdDate: Date;
   publishDate: Date;
   isFeatured: boolean;
   type: ResourceType;
+  tags: Array<string>;
 }
 
 export const resources: Array<RawResource> = [
@@ -24,6 +25,7 @@ export const resources: Array<RawResource> = [
     type: ResourceType.Video,
     tags: ['EmberFest', 'Conference'],
     author: 'Ignace Maes',
+    authorTwitter: 'Ignace_Maes',
   },
   {
     title: 'Ember.js Octane vs Classic Cheat Sheet',
@@ -36,6 +38,7 @@ export const resources: Array<RawResource> = [
     type: ResourceType.Documentation,
     tags: ['Octane'],
     author: 'Ember Learning Team',
+    authorTwitter: 'EmberJS',
   },
   {
     title: 'Why Ember: Reasons to use Ember',
