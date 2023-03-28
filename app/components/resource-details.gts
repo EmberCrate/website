@@ -90,7 +90,7 @@ const ResourceDetails: TOC<{ Args: { resource: Resource } }> = <template>
   </div>
 
   <div class='mt-8 flex max-w-3xl flex-col gap-8'>
-    {{#if (isResourceType @resource ResourceType.YouTube)}}
+    {{#if (isResourceType @resource ResourceType.Video)}}
       <YoutubeEmbed @resource={{@resource}} />
     {{/if}}
     {{#if (isResourceType @resource ResourceType.Twitter)}}

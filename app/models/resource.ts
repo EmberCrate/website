@@ -3,7 +3,7 @@ import type Tag from 'ember-crate/models/tag';
 import slugify from 'slugify';
 
 export enum ResourceType {
-  YouTube = 'YouTube',
+  Video = 'Video',
   Documentation = 'Documentation',
   Tutorial = 'Tutorial',
   GitHub = 'GitHub',
@@ -48,11 +48,11 @@ export default class Resource extends Model {
   declare type: ResourceType;
 
   get hasPreviewImage() {
-    return [ResourceType.YouTube, ResourceType.GitHub].includes(this.type);
+    return [ResourceType.Video, ResourceType.GitHub].includes(this.type);
   }
 
   get previewImage() {
-    if (this.type === ResourceType.YouTube) {
+    if (this.type === ResourceType.Video) {
       return `https://img.youtube.com/vi/${this.youtubeId}/mqdefault.jpg`;
     }
     if (this.type === ResourceType.GitHub) {
@@ -66,7 +66,7 @@ export default class Resource extends Model {
   }
 
   get youtubeId() {
-    if (this.type !== ResourceType.YouTube) {
+    if (this.type !== ResourceType.Video) {
       return null;
     }
     const videoId = [
