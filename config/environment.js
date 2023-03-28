@@ -20,7 +20,7 @@ module.exports = function (environment) {
     'ember-meta': {
       description:
         'The open collection for all resources on Ember.js. Find interesting articles, conference talks, social media posts, and more.',
-      imgSrc: 'https://embercrate.com/embercrate-logo.svg',
+      imgSrc: 'https://embercrate.com/og-cover.png',
       siteName: 'EmberCrate',
       title: 'EmberCrate - The open collection for all resources on Ember.js',
       twitterUsername: '@EmberCrate',
