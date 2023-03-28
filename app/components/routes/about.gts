@@ -81,9 +81,10 @@ import HeroIcon from 'ember-heroicons/components/hero-icon';
             />
           </svg>
           The Ember.js framework was first released in 2011. More than 10 years
-          later it is still going strong. Due to the nature of change, there is
-          a lot of outdated content out on the web. EmberCrate aims to tackle
-          this by making it easy to discover modern and up to date resources.
+          later it is still a solid framework for building ambitious web
+          applications. Due to the nature of change, there is a lot of outdated
+          content out on the web. EmberCrate aims to tackle this by making it
+          easy to discover modern and up to date resources.
         </p>
       </div>
     </div>
