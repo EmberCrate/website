@@ -8,7 +8,7 @@ export enum ResourceType {
   Tutorial = 'Tutorial',
   GitHub = 'GitHub',
   Website = 'Website',
-  BlogPost = 'Blog Post',
+  Article = 'Article',
   Twitter = 'Twitter',
   Book = 'Book',
   StackOverflow = 'StackOverflow',
