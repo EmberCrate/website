@@ -141,7 +141,7 @@ export const resources: Array<RawResource> = [
     isFeatured: false,
     type: ResourceType.Twitter,
     tags: ['Framework Comparison'],
-    author: 'NullVoxPoluli',
+    author: 'NullVoxPopuli',
   },
   {
     title: 'Rock & Roll with Ember.js',
@@ -175,7 +175,7 @@ export const resources: Array<RawResource> = [
     isFeatured: false,
     type: ResourceType.StackOverflow,
     tags: ['Framework Comparison'],
-    author: 'NullVoxPoluli',
+    author: 'NullVoxPopuli',
   },
   {
     title: 'Start a new Ember.js project - in browser',
@@ -230,7 +230,7 @@ export const resources: Array<RawResource> = [
     isFeatured: true,
     type: ResourceType.Tutorial,
     tags: ['Learning', 'Tutorial'],
-    author: 'NullVoxPoluli',
+    author: 'NullVoxPopuli',
   },
   {
     title: 'Polaris, Starbeam, and the Future of Ember with Godfrey Chan',
