@@ -15,6 +15,18 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'Limber: a Glimdown Playground',
+    description: 
+      'Limber mixes markdown and glimmer syntax to provide an easy way to make examples, reproductions, and learn Glimmer/Ember',
+    url: 'https://limber.glimdown.com',
+    createdDate: new Date('2021-03-20'),
+    publishDate: new Date('2023-03-30'),
+    isFeatured: false,
+    type: ResourceType.Tutorial,
+    tags: ['Polaris'],
+    author: 'NullVoxPopuli',
+  },
+  {
     title: 'Automated Visual Testing in Ember - Ember Fest 2022',
     description:
       'Ember gives developers the power to write tests and be confident about deployments. But have you ever made a change that broke your application layout while still passing all tests?\n\nIn this talk we’ll explore the world of visual testing to keep your app pixel perfect and have that peace of mind when deploying. By the end, you should be able to understand how visual testing works and how to set it up in a reliable way, even for applications with complex data structures and time dependent logic.',
