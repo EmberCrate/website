@@ -15,6 +15,27 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'Frontend Component Architecture',
+    description: `
+      This is a Tutorial about Components with Slides, Video and Handbook speaking about:
+      
+      - Haptics
+      - Patterns
+      - Types
+      - Classification
+      - Styling
+      - Practical Use
+    `,
+    url: 'https://gos.si/blog/frontend-component-architecture/',
+    createdDate: new Date('2022-04-13'),
+    publishDate: new Date('2023-03-30'),
+    isFeatured: false,
+    type: ResourceType.Tutorial,
+    tags: ['Components', 'Architecture'],
+    author: 'Thomas Gossmann',
+    authorTwitter: 'unistyler'
+  },
+  {
     title: 'Limber: a Glimdown Playground',
     description: 
       'Limber mixes markdown and glimmer syntax to provide an easy way to make examples, reproductions, and learn Glimmer/Ember',
