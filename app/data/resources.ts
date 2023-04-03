@@ -33,11 +33,11 @@ export const resources: Array<RawResource> = [
     type: ResourceType.Tutorial,
     tags: ['Components', 'Architecture'],
     author: 'Thomas Gossmann',
-    authorTwitter: 'unistyler'
+    authorTwitter: 'unistyler',
   },
   {
     title: 'Limber: a Glimdown Playground',
-    description: 
+    description:
       'Limber mixes markdown and glimmer syntax to provide an easy way to make examples, reproductions, and learn Glimmer/Ember',
     url: 'https://limber.glimdown.com',
     createdDate: new Date('2021-03-20'),
