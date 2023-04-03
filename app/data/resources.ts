@@ -445,6 +445,20 @@ export const resources: Array<RawResource> = [
     author: 'Shawn Chen',
   },
   {
+    title: 'Tauri + Ember starter template',
+    description: `
+      This template should help get you started developing with Tauri and EmberJs.
+    `,
+    url: 'https://github.com/tdwesten/ember-tauri-starter',
+    createdDate: new Date('2023-03-08'),
+    publishDate: new Date('2023-04-03'),
+    isFeatured: false,
+    type: ResourceType.GitHub,
+    tags: ['Tauri', 'Desktop'],
+    author: 'Thomas van der Westen',
+    authorTwitter: 'tdwesten',
+  },
+  {
     title: 'The official Ember Community Discord',
     description: `
       Ask questions and chat with community members in real-time.
