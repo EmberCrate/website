@@ -444,4 +444,17 @@ export const resources: Array<RawResource> = [
     tags: ['Tutorial', 'Octane'],
     author: 'Shawn Chen',
   },
+  {
+    title: 'The official Ember Community Discord',
+    description: `
+      Ask questions and chat with community members in real-time.
+    `,
+    url: 'https://discord.gg/emberjs',
+    createdDate: new Date('2018-01-01'),
+    publishDate: new Date('2023-04-03'),
+    isFeatured: true,
+    type: ResourceType.Website,
+    tags: ['Community'],
+    author: 'Discord',
+  },
 ];
