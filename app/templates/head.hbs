@@ -65,51 +65,6 @@
 {{/if}}
 {{! End opengraph }}
 
-{{! Begin Twitter }}
-<meta name='twitter:card' content='summary' />
-
-{{#if this.model.twitterUsername}}
-  <meta name='twitter:site' content={{this.model.twitterUsername}} />
-  <meta name='twitter:creator' content={{this.model.twitterUsername}} />
-{{/if}}
-
-{{#if this.model.imgSrc}}
-  <meta name='twitter:image:src' content={{this.model.imgSrc}} />
-{{/if}}
-
-{{!-- {{#if (or this.model.articleTitle this.model.title)}}
-  <meta
-    name='twitter:title'
-    content={{if
-      this.model.articleTitle
-      this.model.articleTitle
-      this.model.title
-    }}
-  />
-{{/if}} --}}
-
-{{#if this.model.url}}
-  <meta name='twitter:url' content={{this.model.url}} />
-{{/if}}
-
-{{#if this.model.description}}
-  <meta name='twitter:description' content={{this.model.description}} />
-{{/if}}
-
-{{#if this.model.author}}
-  <meta name='twitter:label1' content='Written by' />
-  <meta
-    name='twitter:data1'
-    content={{or this.model.author.name this.model.author}}
-  />
-{{/if}}
-
-{{#if this.model.keywords}}
-  <meta name='twitter:label2' content='Filed under' />
-  <meta name='twitter:data2' content={{this.model.keywords}} />
-{{/if}}
-{{! End Twitter }}
-
 {{! Begin JSON-LD }}
 {{#if this.model.jsonld}}
   <script type='application/ld+json'>
