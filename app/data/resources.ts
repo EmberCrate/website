@@ -15,6 +15,22 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'AMA with the Ember.js Framework Team - EmberEurope Q1 2023',
+    description: `
+      Katie Gengler, Peter Wagenet, and Ed Faulkner from the framework team will give an update on the progress toward Ember 5 and Polaris and be available to answer attendees' (on-site and remote) questions.
+
+      A comprehensive overview of the current state of Ember, highlighting the key developments in the framework and the ongoing work to make it more efficient, streamlined, and user-friendly. The presentation's emphasis on the Polaris addition and its impact on the Ember framework is expected to pave the way for a more efficient, modern, and user-friendly experience in Ember web development.
+    `,
+    url: 'https://www.youtube.com/watch?v=6cqXCPun8bA',
+    createdDate: new Date('2023-04-14'),
+    publishDate: new Date('2023-04-14'),
+    isFeatured: false,
+    type: ResourceType.Video,
+    tags: ['Polaris', 'Meetup'],
+    author: 'Ember Europe',
+    authorTwitter: 'EmberEurope',
+  },
+  {
     title: 'Frontend Component Architecture',
     description: `
       This is a Tutorial about Components with Slides, Video and Handbook speaking about:
