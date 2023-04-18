@@ -15,8 +15,45 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'AMA with the Ember.js Framework Team - EmberEurope Q1 2023',
+    description: `
+      Katie Gengler, Peter Wagenet, and Ed Faulkner from the framework team will give an update on the progress toward Ember 5 and Polaris and be available to answer attendees' (on-site and remote) questions.
+
+      A comprehensive overview of the current state of Ember, highlighting the key developments in the framework and the ongoing work to make it more efficient, streamlined, and user-friendly. The presentation's emphasis on the Polaris addition and its impact on the Ember framework is expected to pave the way for a more efficient, modern, and user-friendly experience in Ember web development.
+    `,
+    url: 'https://www.youtube.com/watch?v=6cqXCPun8bA',
+    createdDate: new Date('2023-04-14'),
+    publishDate: new Date('2023-04-14'),
+    isFeatured: false,
+    type: ResourceType.Video,
+    tags: ['Polaris', 'Meetup'],
+    author: 'Ember Europe',
+    authorTwitter: 'EmberEurope',
+  },
+  {
+    title: 'Frontend Component Architecture',
+    description: `
+      This is a Tutorial about Components with Slides, Video and Handbook speaking about:
+      
+      - Haptics
+      - Patterns
+      - Types
+      - Classification
+      - Styling
+      - Practical Use
+    `,
+    url: 'https://gos.si/blog/frontend-component-architecture/',
+    createdDate: new Date('2022-04-13'),
+    publishDate: new Date('2023-03-30'),
+    isFeatured: false,
+    type: ResourceType.Tutorial,
+    tags: ['Components', 'Architecture'],
+    author: 'Thomas Gossmann',
+    authorTwitter: 'unistyler',
+  },
+  {
     title: 'Limber: a Glimdown Playground',
-    description: 
+    description:
       'Limber mixes markdown and glimmer syntax to provide an easy way to make examples, reproductions, and learn Glimmer/Ember',
     url: 'https://limber.glimdown.com',
     createdDate: new Date('2021-03-20'),
@@ -422,6 +459,33 @@ export const resources: Array<RawResource> = [
     type: ResourceType.Video,
     tags: ['Tutorial', 'Octane'],
     author: 'Shawn Chen',
+  },
+  {
+    title: 'Tauri + Ember starter template',
+    description: `
+      This template should help get you started developing with Tauri and EmberJs.
+    `,
+    url: 'https://github.com/tdwesten/ember-tauri-starter',
+    createdDate: new Date('2023-03-08'),
+    publishDate: new Date('2023-04-03'),
+    isFeatured: false,
+    type: ResourceType.GitHub,
+    tags: ['Tauri', 'Desktop'],
+    author: 'Thomas van der Westen',
+    authorTwitter: 'tdwesten',
+  },
+  {
+    title: 'The official Ember Community Discord',
+    description: `
+      Ask questions and chat with community members in real-time.
+    `,
+    url: 'https://discord.gg/emberjs',
+    createdDate: new Date('2018-01-01'),
+    publishDate: new Date('2023-04-03'),
+    isFeatured: true,
+    type: ResourceType.Website,
+    tags: ['Community'],
+    author: 'Discord',
   },
   {
     title: 'Tailwind CSS for Ember Power Select',
