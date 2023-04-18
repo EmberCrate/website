@@ -423,4 +423,18 @@ export const resources: Array<RawResource> = [
     tags: ['Tutorial', 'Octane'],
     author: 'Shawn Chen',
   },
+  {
+    title: 'Tailwind CSS for Ember Power Select',
+    description: `
+      Ember Power Select is a powerful Ember addon for working with selects. This is a Tailwind CSS plugin for styling both <PowerSelect>, <PowerSelectMultiple> and all the options related to these.
+    `,
+    url: 'https://josemarluedke.github.io/tailwindcss-ember-power-select/',
+    createdDate: new Date('2020-12-20'),
+    publishDate: new Date('2023-04-18'),
+    isFeatured: false,
+    type: ResourceType.Website,
+    tags: ['Addon', 'Tailwind'],
+    author: 'Josemar Luedke',
+    authorTwitter: 'josemarluedke',
+  }
 ];
