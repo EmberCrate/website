@@ -21,7 +21,7 @@ export const resources: Array<RawResource> = [
 
       A comprehensive overview of the current state of Ember, highlighting the key developments in the framework and the ongoing work to make it more efficient, streamlined, and user-friendly. The presentation's emphasis on the Polaris addition and its impact on the Ember framework is expected to pave the way for a more efficient, modern, and user-friendly experience in Ember web development.
     `,
-    url: 'https://www.youtube.com/watch?v=6cqXCPun8bA',
+    url: 'https://www.youtube.com/watch?v=nPZkvGeQK2k',
     createdDate: new Date('2023-04-14'),
     publishDate: new Date('2023-04-14'),
     isFeatured: false,
