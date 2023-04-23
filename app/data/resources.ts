@@ -15,6 +15,20 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'EmberData 5.X Update',
+    description: `
+      An update on the future of Ember Data.
+    `,
+    url: 'https://blog.emberjs.com/ember-data-5-x-update-2023-04-15',
+    createdDate: new Date('2023-04-15'),
+    publishDate: new Date('2023-04-15'),
+    isFeatured: false,
+    type: ResourceType.Article,
+    tags: ['Polaris', 'Ember Data'],
+    author: 'Chris Thoburn',
+    authorTwitter: 'not_runspired',
+  },
+  {
     title: 'AMA with the Ember.js Framework Team - EmberEurope Q1 2023',
     description: `
       Katie Gengler, Peter Wagenet, and Ed Faulkner from the framework team will give an update on the progress toward Ember 5 and Polaris and be available to answer attendees' (on-site and remote) questions.
