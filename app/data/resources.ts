@@ -15,6 +15,19 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'Property initialization in Glimmer components',
+    description: `
+    When thinking about Ember migration from Classic components to Glimmer classes, one of the big changes is replacing init() hook with constructor(). But do we really need to mimic the old structure? Properties initialization based on args passed from parent is the most frequent case.
+    `,
+    url: 'https://www.linkedin.com/pulse/emberjs-property-initialization-glimmer-components-alex-vovchuk/',
+    createdDate: new Date('2022-07-14'),
+    publishDate: new Date('2023-05-09'),
+    isFeatured: false,
+    type: ResourceType.Article,
+    tags: ['Octane', 'Glimmer'],
+    author: 'Alex Vovchuk',
+  },
+  {
     title: 'EmberData 5.X Update',
     description: `
       An update on the future of Ember Data.
