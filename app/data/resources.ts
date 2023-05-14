@@ -15,6 +15,20 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'Avoiding Lifecycle in Components',
+    description: `
+      This is mostly going to be about did-insert, did-update, etc, aka, the @ember/render-modifiers.
+      I'm writing about this, because I don't think there has been any guidance published on what to do. 
+    `,
+    url: 'https://nullvoxpopuli.com/avoiding-lifecycle/',
+    createdDate: new Date('2021-07-13'),
+    publishDate: new Date('2023-05-14'),
+    isFeatured: false,
+    type: ResourceType.Article,
+    tags: ['Modifiers', 'Resources'],
+    author: 'NullVoxPopuli',
+  },
+  {
     title: 'Property initialization in Glimmer components',
     description: `
     When thinking about Ember migration from Classic components to Glimmer classes, one of the big changes is replacing init() hook with constructor(). But do we really need to mimic the old structure? Properties initialization based on args passed from parent is the most frequent case.
