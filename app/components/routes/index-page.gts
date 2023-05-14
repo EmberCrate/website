@@ -46,11 +46,11 @@ const IndexPage: TOC<{ Args: { model: any } }> = <template>
             class='mx-auto grid max-w-screen-md gap-8 text-gray-900 sm:grid-cols-3'
           >
             <div class='flex flex-col items-center justify-center'>
-              <dt class='mb-2 text-3xl font-extrabold md:text-4xl'>30+</dt>
+              <dt class='mb-2 text-3xl font-extrabold md:text-4xl'>40+</dt>
               <dd class='font-light text-gray-500'>Resources</dd>
             </div>
             <div class='flex flex-col items-center justify-center'>
-              <dt class='mb-2 text-3xl font-extrabold md:text-4xl'>20+</dt>
+              <dt class='mb-2 text-3xl font-extrabold md:text-4xl'>30+</dt>
               <dd class='font-light text-gray-500'>Tags</dd>
             </div>
             <div class='flex flex-col items-center justify-center'>
