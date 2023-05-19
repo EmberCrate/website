@@ -25,7 +25,7 @@ export default class ResourceFilters extends Component<{
 
   @service declare router: Router;
 
-  onChangeFilter = (event: InputEvent) => {
+  onChangeFilter = (event: Event) => {
     const filter = (event.target as HTMLInputElement).value;
     this.router.transitionTo('resources.index', {
       queryParams: { filter, page: 1 },
