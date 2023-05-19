@@ -200,7 +200,7 @@ export const resources: Array<RawResource> = [
     publishDate: new Date('2023-02-25'),
     isFeatured: false,
     type: ResourceType.GitHub,
-    tags: ['Template Tags', 'TypeScript', 'Open Source'],
+    tags: ['Template tag components', 'TypeScript', 'Open Source'],
     author: 'Ignace Maes',
   },
   {
@@ -336,7 +336,7 @@ export const resources: Array<RawResource> = [
     publishDate: new Date('2023-03-25'),
     isFeatured: true,
     type: ResourceType.Tutorial,
-    tags: ['Learning', 'Tutorial'],
+    tags: ['Learning', 'Tutorial', 'Template tag components'],
     author: 'NullVoxPopuli',
   },
   {
@@ -383,7 +383,7 @@ export const resources: Array<RawResource> = [
     publishDate: new Date('2023-03-25'),
     isFeatured: false,
     type: ResourceType.Article,
-    tags: ['Template Tags'],
+    tags: ['Template tag components'],
     author: 'Chris Krycho',
   },
   {
