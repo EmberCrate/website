@@ -4,6 +4,8 @@ import ResourceFilters from 'ember-crate/components/resource-filters';
 import Dropdown from 'ember-crate/components/base/dropdown';
 import Paginator from 'ember-crate/components/base/paginator';
 import { service } from '@ember/service';
+import Resource from 'ember-crate/models/resource';
+import Router from 'ember-crate/router';
 
 export const sortOptions = ['Newest first', 'Oldest first'];
 
@@ -31,7 +33,7 @@ export default class IndexPage extends Component<{
   @service declare router: Router;
 
   onSelectSortOption = (sort: string) => {
-    this.router.transitionTo({
+    this.router.transitionTo('resources.index', {
       queryParams: { sort, page: 1 }
     });
   }
