@@ -8,6 +8,7 @@ import DropdownList, {
 import { service } from '@ember/service';
 import Store from '@ember-data/store';
 import { ResourceType } from 'ember-crate/models/resource';
+import Router from 'ember-crate/router';
 
 export const featuredOptions = ['All', 'Featured'];
 
@@ -26,31 +27,31 @@ export default class ResourceFilters extends Component<{
 
   onChangeFilter = (event: InputEvent) => {
     const filter = (event.target as HTMLInputElement).value;
-    this.router.transitionTo({
+    this.router.transitionTo('resources.index', {
       queryParams: { filter, page: 1 },
     });
   };
 
   onSelectFeaturedOption = (featured: string) => {
-    this.router.transitionTo({
+    this.router.transitionTo('resources.index', {
       queryParams: { featured, page: 1 },
     });
   };
 
   onSelectTypesOptions = (types: Array<string>) => {
-    this.router.transitionTo({
+    this.router.transitionTo('resources.index', {
       queryParams: { types, page: 1 },
     });
   };
 
   onSelectTagsOptions = (tags: Array<string>) => {
-    this.router.transitionTo({
+    this.router.transitionTo('resources.index', {
       queryParams: { tags, page: 1 },
     });
   };
 
   onSelectAuthorsOptions = (authors: Array<string>) => {
-    this.router.transitionTo({
+    this.router.transitionTo('resources.index', {
       queryParams: { authors, page: 1 },
     });
   };
