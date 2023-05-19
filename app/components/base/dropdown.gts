@@ -3,6 +3,7 @@ import { TOC } from '@ember/component/template-only';
 import HeroIcon from 'ember-heroicons/components/hero-icon';
 import { tracked } from '@glimmer/tracking';
 import { on } from '@ember/modifier';
+// @ts-expect-error TS(2307)
 import onClickOutside from 'ember-click-outside/modifiers/on-click-outside';
 import { fn } from '@ember/helper';
 
