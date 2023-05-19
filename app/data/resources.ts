@@ -558,5 +558,5 @@ export const resources: Array<RawResource> = [
     tags: ['Addon', 'Tailwind'],
     author: 'Josemar Luedke',
     authorTwitter: 'josemarluedke',
-  }
+  },
 ];
