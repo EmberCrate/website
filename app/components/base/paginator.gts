@@ -1,7 +1,7 @@
 import { LinkTo } from '@ember/routing';
 import { TOC } from '@ember/component/template-only';
-import Resource from 'ember-crate/models/resource';
 import HeroIcon from 'ember-heroicons/components/hero-icon';
+// @ts-expect-error TS(2307)
 import PaginationData from '@bagaar/ember-pagination/components/pagination-data';
 import { hash } from '@ember/helper';
 
