@@ -15,6 +15,23 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'Getting started with Glint and Template Imports',
+    description: `
+      The team I work with are big fans of TypeScript and we've invested a lot of time updating our Ember codebase to be mostly TypeScript now. This has been excellent for maintainability and allowing us to safely add features.
+
+      We've got multiple apps we look after and the largest one is over 10 years old. Over the years we invested our time to continuous improvement. The app has extensive tests, visual regression testing and excellent continuous integration pipeline and we deploy frequently.
+      
+      As we've invested in adding TypeScript to our apps we've seen a reduction in errors that get our into production. This is excellent, but we've still been lacking the ability to use the types in our templates, so there's still a bit of guesswork.
+    `,
+    url: 'https://mfeckie.dev/glint-and-ember-template-imports/',
+    createdDate: new Date('2023-05-18'),
+    publishDate: new Date('2023-05-18'),
+    isFeatured: false,
+    type: ResourceType.Article,
+    tags: ['Glint', 'Template tag components'],
+    author: 'Martin Feckie',
+  },
+  {
     title: 'Avoiding Lifecycle in Components',
     description: `
       This is mostly going to be about did-insert, did-update, etc, aka, the @ember/render-modifiers.
