@@ -15,12 +15,30 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'You did WHAT with TypeScript? Glint Architecture Overview',
+    description: `
+      Chris Krycho and Dan Freeman explain the big picture of how the Glint project works. Glint provides #TypeScript capabilities for #EmberJS and #GlimmerJS templates.
+
+      → How did we get here?
+      → What are the pieces of the project?
+      → How do they fit together?
+      → Where are these pieces in the code base?
+    `,
+    url: 'https://www.youtube.com/watch?v=MLpP8D3cY7M',
+    createdDate: new Date('2023-09-07'),
+    publishDate: new Date('2023-09-09'),
+    isFeatured: false,
+    type: ResourceType.Video,
+    tags: ['Glint', 'TypeScript'],
+    author: 'Chris Krycho',
+  },
+  {
     title: 'Getting started with Glint and Template Imports',
     description: `
       The team I work with are big fans of TypeScript and we've invested a lot of time updating our Ember codebase to be mostly TypeScript now. This has been excellent for maintainability and allowing us to safely add features.
 
       We've got multiple apps we look after and the largest one is over 10 years old. Over the years we invested our time to continuous improvement. The app has extensive tests, visual regression testing and excellent continuous integration pipeline and we deploy frequently.
-      
+
       As we've invested in adding TypeScript to our apps we've seen a reduction in errors that get our into production. This is excellent, but we've still been lacking the ability to use the types in our templates, so there's still a bit of guesswork.
     `,
     url: 'https://mfeckie.dev/glint-and-ember-template-imports/',
@@ -35,7 +53,7 @@ export const resources: Array<RawResource> = [
     title: 'Avoiding Lifecycle in Components',
     description: `
       This is mostly going to be about did-insert, did-update, etc, aka, the @ember/render-modifiers.
-      I'm writing about this, because I don't think there has been any guidance published on what to do. 
+      I'm writing about this, because I don't think there has been any guidance published on what to do.
     `,
     url: 'https://nullvoxpopuli.com/avoiding-lifecycle/',
     createdDate: new Date('2021-07-13'),
@@ -92,7 +110,7 @@ export const resources: Array<RawResource> = [
     title: 'Frontend Component Architecture',
     description: `
       This is a Tutorial about Components with Slides, Video and Handbook speaking about:
-      
+
       - Haptics
       - Patterns
       - Types
@@ -342,7 +360,7 @@ export const resources: Array<RawResource> = [
   {
     title: 'Polaris, Starbeam, and the Future of Ember with Godfrey Chan',
     description: `
-      In 2022, the future of Ember is taking shape thanks to developers like Godfrey Chan. Alongside Yehuda Katz and other engineers, Godfrey’s working on a new edition of Polaris. The project has three main goals: to align Ember with the modern npm packaging system, continue to invest and innovate in reactivity, and encourage universal design principles. 
+      In 2022, the future of Ember is taking shape thanks to developers like Godfrey Chan. Alongside Yehuda Katz and other engineers, Godfrey’s working on a new edition of Polaris. The project has three main goals: to align Ember with the modern npm packaging system, continue to invest and innovate in reactivity, and encourage universal design principles.
 
       Like many developers, Godfrey came to Ember from Rails. Months after chatting with Yehuda and Tom Dale at EmberConf, Godfrey was hired at Tilde and thrown into the Ember deep end. Today, Godfrey’s focused on big picture developments, tackling lofty goals like developing an Ember model to navigate JavaScript classes.
 
@@ -359,11 +377,11 @@ export const resources: Array<RawResource> = [
   {
     title: 'Bringing Types to Ember with Chris Krycho',
     description: `
-      In early 2017, Chris Krycho was working at one of the few startups using Ember, searching for a way to bring types to the emerging language. His primary goal became solving semantic versioning for TS. As Chris kept iterating, striving to combine multiple programming worlds, other engineers joined him in the pursuit until eventually, the Ember TypeScript Core team was born. 
+      In early 2017, Chris Krycho was working at one of the few startups using Ember, searching for a way to bring types to the emerging language. His primary goal became solving semantic versioning for TS. As Chris kept iterating, striving to combine multiple programming worlds, other engineers joined him in the pursuit until eventually, the Ember TypeScript Core team was born.
 
       Today, Chris is a lead engineer at LinkedIn, a father, husband, runner, music composer, and whiskey enthusiast. His current goal is to ensure Ember Polaris has first-class TypeScript support. Aside from offering new dad advice to Robbie, Chris also describes what can become a superpower for new developers willing to work.
-      
-      In this episode, Chris talks with Chuck and Robbie about best-case uses for TypeScript, a defense of complicated library code, Chris’ ultimate goal with software engineering, and his advice for programmers on the rise. 
+
+      In this episode, Chris talks with Chuck and Robbie about best-case uses for TypeScript, a defense of complicated library code, Chris’ ultimate goal with software engineering, and his advice for programmers on the rise.
     `,
     url: 'https://www.whiskeywebandwhatnot.fm/bringing-types-to-ember-with-chris-krycho/',
     createdDate: new Date('2022-05-19'),
