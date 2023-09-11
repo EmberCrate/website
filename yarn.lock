@@ -6051,12 +6051,12 @@ ember-modifier-manager-polyfill@^1.2.0:
     ember-cli-normalize-entity-name "^1.0.0"
     ember-cli-string-utils "^1.1.0"
 
-ember-page-title@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/ember-page-title/-/ember-page-title-7.0.0.tgz#11bebd4901d80757646c9006954a13e4fc187421"
-  integrity sha512-oq6+HYbeVD/BnxIO5AkP4gWlsatdgW2HFO10F8+XQiJZrwa7cC7Wm54JNGqQkavkDQTgNSiy1Fe2NILJ14MmAg==
+ember-page-title@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/ember-page-title/-/ember-page-title-8.0.0.tgz#544377cee81bc4b7664fe903bc3e3e59f93ca3cc"
+  integrity sha512-4bu8CpoPObJZNUogwIjpntxS3jMDlZ1eoJsZUuktcCgOI7LfZocuYbu9LnLM215QjEOV0TxGDWwJck1l8cWKeg==
   dependencies:
-    ember-cli-babel "^7.26.6"
+    "@embroider/addon-shim" "^1.0.0"
 
 ember-qunit@*, ember-qunit@^6.0.0:
   version "6.2.0"
@@ -6096,6 +6096,13 @@ ember-rfc176-data@^0.3.15, ember-rfc176-data@^0.3.17:
   version "0.3.18"
   resolved "https://registry.yarnpkg.com/ember-rfc176-data/-/ember-rfc176-data-0.3.18.tgz#bb6fdcef49999981317ea81b6cc9210fb4108d65"
   integrity sha512-JtuLoYGSjay1W3MQAxt3eINWXNYYQliK90tLwtb8aeCuQK8zKGCRbBodVIrkcTqshULMnRuTOS6t1P7oQk3g6Q==
+
+ember-route-template@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ember-route-template/-/ember-route-template-1.0.1.tgz#d06be11d909c464976d02e45799a63cd4a3ebd09"
+  integrity sha512-zk8eePt+vjigiY7bawTpa5O/HPPXjPAxlPsk37LYSN+uiVrRAFcuq72oTggMfwIZfVZk+gqUAvlaUQBljSMTaw==
+  dependencies:
+    "@embroider/addon-shim" "^1.0.0"
 
 ember-router-generator@^2.0.0:
   version "2.0.0"
