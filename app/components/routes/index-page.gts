@@ -14,7 +14,7 @@ const IndexPage: TOC<{ Args: { model: any } }> = <template>
           The
           <div class='relative inline-flex'>
             <span
-              class='absolute inset-x-0 bottom-0 border-b-[0.25em] border-blue-500/20'
+              class='absolute inset-x-0 bottom-0 border-b-[0.25em] border-orange-500/20'
             ></span>
             <span class='relative'>open collection</span>
           </div>
@@ -27,7 +27,7 @@ const IndexPage: TOC<{ Args: { model: any } }> = <template>
         <LinkTo
           @route='resources'
           @query={{hash sort='Newest first' featured='All'}}
-          class='inline-flex items-center justify-center rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300'
+          class='inline-flex items-center justify-center rounded-lg bg-orange-600 px-5 py-3 text-center text-base font-medium text-white hover:bg-orange-700 focus:ring-4 focus:ring-orange-300'
         >
           Explore resources
           <HeroIcon
@@ -67,7 +67,7 @@ const IndexPage: TOC<{ Args: { model: any } }> = <template>
         <LinkTo
           @route='resources'
           @query={{hash sort='Newest first' featured='Featured'}}
-          class='inline-flex items-center text-blue-500 hover:underline'
+          class='inline-flex items-center text-orange-500 hover:underline'
         >
           View more
           <HeroIcon
@@ -91,7 +91,7 @@ const IndexPage: TOC<{ Args: { model: any } }> = <template>
         <LinkTo
           @route='resources'
           @query={{hash sort='Newest first' featured='All'}}
-          class='inline-flex items-center text-blue-500 hover:underline'
+          class='inline-flex items-center text-orange-500 hover:underline'
         >
           View more
           <HeroIcon

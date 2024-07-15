@@ -30,7 +30,7 @@ const PageButton: TOC<{ Args: { pageNumber: number; isCurrent: boolean } }> =
           }}
           {{if
             @isCurrent
-            "z-10 border border-blue-300 bg-blue-50 px-3 py-2 leading-tight text-blue-600 hover:bg-blue-100 hover:text-blue-700"
+            "z-10 border border-orange-300 bg-orange-50 px-3 py-2 leading-tight text-orange-600 hover:bg-orange-100 hover:text-orange-700"
           }}
           '
       >

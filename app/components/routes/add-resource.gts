@@ -33,7 +33,7 @@ import HeroIcon from 'ember-heroicons/components/hero-icon';
                 <a
                   href='https://github.com/EmberCrate/website'
                   target='_blank'
-                  class='flex items-center font-medium text-blue-500 hover:underline'
+                  class='flex items-center font-medium text-orange-500 hover:underline'
                   rel='noopener noreferrer'
                 >
                   Open repository on GitHub
@@ -87,7 +87,7 @@ import HeroIcon from 'ember-heroicons/components/hero-icon';
                 <a
                   href='https://github.com/EmberCrate/website/compare'
                   target='_blank'
-                  class='flex items-center font-medium text-blue-500 hover:underline'
+                  class='flex items-center font-medium text-orange-500 hover:underline'
                   rel='noopener noreferrer'
                 >
                   Create pull request

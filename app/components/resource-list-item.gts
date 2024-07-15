@@ -48,7 +48,7 @@ export const ResourceListItem: TOC<{ Args: { resource: Resource } }> =
           </span>
         </div>
         <span
-          class='inline-flex items-center font-medium text-blue-600 hover:underline'
+          class='inline-flex items-center font-medium text-orange-600 hover:underline'
         >
           Read more
           <HeroIcon

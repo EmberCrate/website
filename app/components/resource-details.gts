@@ -78,7 +78,7 @@ const ResourceDetails: TOC<{ Args: { resource: Resource } }> = <template>
     <a
       href={{@resource.url}}
       target='_blank'
-      class='my-6 mt-0 inline-flex items-center rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 md:mt-6'
+      class='my-6 mt-0 inline-flex items-center rounded-lg bg-orange-600 px-5 py-3 text-center text-base font-medium text-white hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-300 md:mt-6'
     >
       View resource
       <HeroIcon
@@ -116,7 +116,7 @@ const ResourceDetails: TOC<{ Args: { resource: Resource } }> = <template>
   <div>
     {{#each @resource.tags as |tag|}}
       <span
-        class='mr-2 rounded bg-blue-100 px-2.5 py-0.5 text-sm font-medium text-blue-800'
+        class='mr-2 rounded bg-orange-100 px-2.5 py-0.5 text-sm font-medium text-orange-800'
       >{{tag.id}}</span>
     {{else}}
       <span class='text-slate-500'>This resource has no tags</span>

@@ -60,7 +60,7 @@ export default class Header extends Component<{}> {
             <li>
               <LinkTo
                 @route='index'
-                class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700'
+                class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-orange-700'
                 {{on 'click' this.toggleMenuVisibility}}
               >
                 Home
@@ -69,7 +69,7 @@ export default class Header extends Component<{}> {
             <li>
               <LinkTo
                 @route='resources'
-                class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700'
+                class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-orange-700'
                 {{on 'click' this.toggleMenuVisibility}}
               >
                 Resources
@@ -78,7 +78,7 @@ export default class Header extends Component<{}> {
             {{! <li>
               <LinkTo
                 @route='resources'
-                class='block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0'
+                class='block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-orange-700 md:p-0'
               >
                 Collections
               </LinkTo>
@@ -86,7 +86,7 @@ export default class Header extends Component<{}> {
             <li>
               <LinkTo
                 @route='about'
-                class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-blue-700'
+                class='block rounded py-2 pl-3 pr-4 text-gray-700 hover:bg-gray-100 md:border-0 md:p-0 md:hover:bg-transparent md:hover:text-orange-700'
                 {{on 'click' this.toggleMenuVisibility}}
               >
                 About
@@ -95,7 +95,7 @@ export default class Header extends Component<{}> {
             <li>
               <LinkTo
                 @route='add-resource'
-                class='inline-flex items-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-xs font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200'
+                class='inline-flex items-center rounded-lg border border-gray-200 bg-white px-3 py-2 text-xs font-medium text-gray-900 hover:bg-gray-100 hover:text-orange-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-200'
                 {{on 'click' this.toggleMenuVisibility}}
               >
                 <HeroIcon @icon='plus' class='mr-2 -ml-1 h-4 w-4' />

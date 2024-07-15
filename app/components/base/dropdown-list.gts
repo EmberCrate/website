@@ -28,7 +28,7 @@ const DropdownListItem: TOC<{
       <label class='flex w-full items-center rounded py-2'>
         <input
           type='checkbox'
-          class='h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500'
+          class='h-4 w-4 rounded border-gray-300 bg-gray-100 text-orange-600 focus:ring-2 focus:ring-orange-500'
           checked={{@option.isChecked}}
         />
         <span class='ml-2 text-sm font-medium text-gray-900'>
@@ -113,7 +113,7 @@ export default class DropdownList extends Component<DropdownListSignature> {
               </div>
               <input
                 type='text'
-                class='block w-full rounded-lg border border-gray-300 bg-gray-50 p-2 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500'
+                class='block w-full rounded-lg border border-gray-300 bg-gray-50 p-2 pl-10 text-sm text-gray-900 focus:border-orange-500 focus:ring-orange-500'
                 placeholder='Search'
                 value={{this.searchFilter}}
                 {{on 'input' this.onInputSearchFilter}}

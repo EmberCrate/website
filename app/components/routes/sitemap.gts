@@ -12,7 +12,7 @@ const Sitemap: TOC<{ Args: { model: any } }> = <template>
             <LinkTo
               @route='resources.resource'
               @model={{resource.slug}}
-              class='font-medium text-blue-500 hover:underline'
+              class='font-medium text-orange-500 hover:underline'
             >
               {{resource.title}}
             </LinkTo>
