@@ -15,6 +15,19 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'JS Party #330: The Ember take on recent hot topics',
+    description: `
+      KBall takes another dive into recent hot topics around reactivity and build systems, this time with three members of the Ember core team. They also talk about some of the reasons why the Ember community has been so long lived, how thinking about upgradeability leads to universality, and how features first built specifically for frameworks make their way into the language specification or universal libraries.
+    `,
+    url: 'https://changelog.com/jsparty/330',
+    createdDate: new Date('2024-07-11'),
+    publishDate: new Date('2024-07-15'),
+    isFeatured: false,
+    type: ResourceType.Podcast,
+    tags: ['Embroider', 'Warp Drive', 'Reactivity'],
+    author: 'JS Party',
+  },
+  {
     title: 'You did WHAT with TypeScript? Glint Architecture Overview',
     description: `
       Chris Krycho and Dan Freeman explain the big picture of how the Glint project works. Glint provides #TypeScript capabilities for #EmberJS and #GlimmerJS templates.
