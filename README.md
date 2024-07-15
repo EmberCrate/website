@@ -5,7 +5,7 @@
   <p align="center" width="450" style="width: 450px; margin: 0 auto;">
     <img src="https://img.shields.io/badge/Ember.js-~v4.8.0-orange">
     <img src="https://img.shields.io/badge/Node.js-14.*%20%7C%7C%2016.*%20%7C%7C%20%3E%3D%2018-green">
-    <img src="https://img.shields.io/badge/Yarn-v1-blue">
+    <img src="https://img.shields.io/badge/pnpm-v8-yellow">
     <img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fembercrate.com">
     <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/EmberCrate/website">
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr-raw/EmberCrate/website">
