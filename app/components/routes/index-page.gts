@@ -67,7 +67,7 @@ const IndexPage: TOC<{ Args: { model: any } }> = <template>
         <LinkTo
           @route='resources'
           @query={{hash sort='Newest first' featured='Featured'}}
-          class='inline-flex items-center text-orange-500 hover:underline'
+          class='inline-flex items-center font-medium text-orange-600 hover:underline'
         >
           View more
           <HeroIcon
@@ -91,7 +91,7 @@ const IndexPage: TOC<{ Args: { model: any } }> = <template>
         <LinkTo
           @route='resources'
           @query={{hash sort='Newest first' featured='All'}}
-          class='inline-flex items-center text-orange-500 hover:underline'
+          class='inline-flex items-center font-medium text-orange-600 hover:underline'
         >
           View more
           <HeroIcon
