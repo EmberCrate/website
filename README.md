@@ -10,7 +10,7 @@
     <img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/EmberCrate/website">
     <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr-raw/EmberCrate/website">
     <img alt="Discord" src="https://img.shields.io/discord/480462759797063690">
-    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/EmberCrate?style=social">
+    <img alt="X Follow" src="https://img.shields.io/twitter/follow/EmberCrate?style=social">
   </p>
 </p>
 

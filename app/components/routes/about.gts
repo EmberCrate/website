@@ -30,7 +30,7 @@ import HeroIcon from 'ember-heroicons/components/hero-icon';
           <h4 class='text-2xl font-bold'>Ignace Maes</h4>
           <div class='flex items-center gap-2'>
             <a
-              href='https://twitter.com/Ignace_Maes'
+              href='https://x.com/Ignace_Maes'
               target='_blank'
               rel='noopener noreferrer'
               class='text-gray-600 hover:text-[#1da1f2]'
