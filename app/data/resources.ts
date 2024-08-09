@@ -15,6 +15,19 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'Let\'s Learn Ember.js - Learn With Jason',
+    description: `
+      When I asked Robbie Wagner what Ember.js is, he called it “the Rails of JavaScript”. Learn what it is and how we can use it in our web projects.
+    `,
+    url: 'https://www.youtube.com/watch?v=E83iAtF0RfY',
+    createdDate: new Date('2024-08-08'),
+    publishDate: new Date('2024-08-09'),
+    isFeatured: false,
+    type: ResourceType.Video,
+    tags: ['Ember', 'Ember Data'],
+    author: 'Jason Lengstorf, Robbie Wagner',
+  },
+  {
     title: 'JS Party #330: The Ember take on recent hot topics',
     description: `
       KBall takes another dive into recent hot topics around reactivity and build systems, this time with three members of the Ember core team. They also talk about some of the reasons why the Ember community has been so long lived, how thinking about upgradeability leads to universality, and how features first built specifically for frameworks make their way into the language specification or universal libraries.
