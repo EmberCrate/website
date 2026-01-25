@@ -15,6 +15,19 @@ interface RawResource {
 
 export const resources: Array<RawResource> = [
   {
+    title: 'shadcn-ember - shadcn/ui, but for Ember ✨',
+    description: `
+      A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
+    `,
+    url: 'https://shadcn-ember.com/',
+    createdDate: new Date('2026-01-25'),
+    publishDate: new Date('2026-01-25'),
+    isFeatured: true,
+    type: ResourceType.Website,
+    tags: ['Ember', 'TypeScript', 'Design System'],
+    author: 'Ignace Maes',
+  },
+  {
     title: 'Let\'s Learn Ember.js - Learn With Jason',
     description: `
       When I asked Robbie Wagner what Ember.js is, he called it “the Rails of JavaScript”. Learn what it is and how we can use it in our web projects.
