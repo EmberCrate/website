@@ -2,6 +2,7 @@ import { LinkTo } from '@ember/routing';
 import { TOC } from '@ember/component/template-only';
 import HeroIcon from 'ember-heroicons/components/hero-icon';
 import ResourceCard from 'ember-crate/components/resource-card';
+import Sponsor from 'ember-crate/components/sections/sponsor';
 import { hash } from '@ember/helper';
 
 const IndexPage: TOC<{ Args: { model: any } }> = <template>
@@ -108,6 +109,8 @@ const IndexPage: TOC<{ Args: { model: any } }> = <template>
           <ResourceCard @resource={{resource}} />
         {{/each}}
       </div>
+
+      <Sponsor />
     </div>
   </div>
 </template>;

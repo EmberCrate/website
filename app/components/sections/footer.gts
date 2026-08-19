@@ -77,6 +77,13 @@ const currentYear = new Date().getFullYear();
           {{currentYear}}
           EmberCrate &mdash; Built with
           <a href='https://emberjs.com/' class='hover:underline'>Ember.js</a>
+          &mdash; Sponsored by
+          <a
+            href='https://fallax.io'
+            target='_blank'
+            rel='noopener noreferrer sponsored'
+            class='hover:underline'
+          >Fallax</a>
         </span>
         <div class='mt-4 flex space-x-6 sm:mt-0 sm:justify-center items-center'>
           <a
