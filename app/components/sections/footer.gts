@@ -81,7 +81,7 @@ const currentYear = new Date().getFullYear();
           <a
             href='https://fallax.io'
             target='_blank'
-            rel='noopener noreferrer sponsored'
+            rel='noopener noreferrer'
             class='hover:underline'
           >Fallax</a>
         </span>

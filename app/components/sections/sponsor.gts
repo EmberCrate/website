@@ -16,7 +16,7 @@ import HeroIcon from 'ember-heroicons/components/hero-icon';
         <a
           href='https://fallax.io'
           target='_blank'
-          rel='noopener noreferrer sponsored'
+          rel='noopener noreferrer'
           class='group inline-flex items-center gap-2 text-gray-900'
         >
           <svg
@@ -43,7 +43,7 @@ import HeroIcon from 'ember-heroicons/components/hero-icon';
       <a
         href='https://fallax.io'
         target='_blank'
-        rel='noopener noreferrer sponsored'
+        rel='noopener noreferrer'
         class='inline-flex flex-shrink-0 items-center justify-center self-start rounded-lg bg-[#5d7510] px-5 py-3 text-center text-base font-medium text-white hover:bg-[#4c6009] focus:ring-4 focus:ring-[#5d7510]/30 md:self-auto'
       >
         Visit fallax.io
